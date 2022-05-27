@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="cartiDataSet" targetNamespace="http://tempuri.org/cartiDataSet.xsd" xmlns:mstns="http://tempuri.org/cartiDataSet.xsd" xmlns="http://tempuri.org/cartiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="cartiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cartiConnectionString (Settings)" PropertyReference="ApplicationSettings.PROIECT_EXemplu_interfata.Properties.Settings.GlobalReference.Default.cartiConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="imprumuturiTableAdapter" GeneratorDataComponentClassName="imprumuturiTableAdapter" Name="imprumuturi" UserDataComponentName="imprumuturiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="cartiConnectionString (Settings)" DbObjectName="imprumuturi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Carte FROM imprumuturi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Carte" DataSetColumn="Carte" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="cartiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="cartiDataSet" msprop:Generator_UserDSName="cartiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="imprumuturi" msprop:Generator_TableClassName="imprumuturiDataTable" msprop:Generator_TableVarName="tableimprumuturi" msprop:Generator_TablePropName="imprumuturi" msprop:Generator_RowDeletingName="imprumuturiRowDeleting" msprop:Generator_RowChangingName="imprumuturiRowChanging" msprop:Generator_RowEvHandlerName="imprumuturiRowChangeEventHandler" msprop:Generator_RowDeletedName="imprumuturiRowDeleted" msprop:Generator_UserTableName="imprumuturi" msprop:Generator_RowChangedName="imprumuturiRowChanged" msprop:Generator_RowEvArgName="imprumuturiRowChangeEvent" msprop:Generator_RowClassName="imprumuturiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Carte" msprop:Generator_ColumnVarNameInTable="columnCarte" msprop:Generator_ColumnPropNameInRow="Carte" msprop:Generator_ColumnPropNameInTable="CarteColumn" msprop:Generator_UserColumnName="Carte" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

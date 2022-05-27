@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PROIECT_EXemplu_interfata.Alege_carte">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAASAAABQAAACCAQBSIBwIAAAAEExAAAAAAAA=</HashCode>
+      <FileName>Alege carte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.cartiDataSet" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PROIECT_EXemplu_interfata.cartiDataSet.imprumuturiRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="PROIECT_EXemplu_interfata.cartiDataSet.imprumuturiDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PROIECT_EXemplu_interfata.cartiDataSet.imprumuturiRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PROIECT_EXemplu_interfata.cartiDataSet.imprumuturiRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBwAgAAAAAEABBg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Form4" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKABAIAAACBgEJQQAACCEQBDIHwIBAAAECRAAABEAAA=</HashCode>
+      <FileName>Registru carti.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Form6" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKABEICAASAAEJSQQgCCSSBSoFwYBAAAcHxAAgBEAAA=</HashCode>
+      <FileName>Imprumut carte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Meniu">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACEEA4AAAAAABIAAAAIAA=</HashCode>
+      <FileName>Meniu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Program" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.cartiDataSetTableAdapters.imprumuturiTableAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.cartiDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROIECT_EXemplu_interfata.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
